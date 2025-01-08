@@ -1,5 +1,5 @@
-import './App.css'
-function App() {
+
+function Praveg() {
   
   return (
     <>
@@ -17,4 +17,4 @@ function App() {
   )
 }
 
-export default App
+export default Praveg
