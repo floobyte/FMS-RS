@@ -1,0 +1,51 @@
+.foodhotelsearch-main-div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0;
+    border: 5px solid blue;
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+.foodhotelsearch-top-search-div{
+    width: 70%;
+    height: 60px;
+    /* border: 1px solid #0d0d0d; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.foodhotelsearch-show-cards-main-div{
+    width: 90%;
+    height: 500px;
+    /* border: 1px solid #0d0d0d; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-top: 50px;
+    display: flex;
+
+
+}
+.foodhotelsearch-show-cards-div{
+    /* width: 250px; */
+    height: 150px;
+    /* border: 1px solid #0d0d0d; */
+    display: flex;
+    background-color: rgb(231, 9, 9);
+    border-radius: 10px;
+}
+.foodhotel-show-img-div{
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+}
+.foodhotel-show-img-div>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}

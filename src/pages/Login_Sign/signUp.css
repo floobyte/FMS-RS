@@ -1,0 +1,113 @@
+/* General container */
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    border: 1px solid black;
+  }
+  
+  /* Title styling */
+  .signup-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  /* Card styling */
+  .signup-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 300px;
+    position: relative;
+  }
+  
+  /* Red decorative shapes */
+  .signup-card::before
+   {
+    content: "";
+    position: absolute;
+    background: red;
+    /* border-radius: 70%; */
+    border-radius: 100px 0px 0px 100px;
+  }
+  
+  .signup-card::after {
+    content: "";
+    position: absolute;
+    background: red;
+    /* border-radius: 70%; */
+    border-radius: 0px 150% 0px 0px;}
+  .signup-card::before {
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .signup-card::after {
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    height: 50px;
+  }
+  
+  /* Form Title */
+  .form-title {
+    font-size: 1.5rem;
+    color: red;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Form inputs */
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Submit button */
+  .signup-button {
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: darkred;
+  }
+  
+  /* Sign-in link */
+  .login-redirect {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signin-link {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  .signin-link:hover {
+    text-decoration: underline;
+  }

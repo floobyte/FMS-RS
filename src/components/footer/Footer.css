@@ -1,0 +1,39 @@
+.footer {
+    background-color: #cc0c0c;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 2% 5% 2%;
+}
+
+.footer h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fcfdfe;
+    font-size: 20px;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; 
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+.footer ul li {
+    font-size: 20px;
+    padding: 8px;
+}
+
+.footer__fifth > img {
+    margin-top: 20px;
+}
+
+.footer__fifthIcons {
+    display: flex;
+    justify-content: space-between;
+}

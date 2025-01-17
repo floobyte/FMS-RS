@@ -1,0 +1,240 @@
+.partner-main-herosection{
+    background: #ff7f50; /* Gradient or solid color */
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    border-bottom: 5px solid #ff4500;
+}
+.partner-hero-content>h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.partner-hero-content>p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.partner-btn-primary {
+    background-color: #fff;
+    color: #ff7f50;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.partner-btn-primary:hover {
+    background-color: #ff4500;
+    color: white;
+}
+
+
+/* why partner section  */
+/* Why Partner Section */
+.why-partner {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.why-partner>h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.partner-card-main-div-benefits {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.partner-card-benefit {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+}
+
+.partner-card-benefit>img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.partner-card-benefit>h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.partner-card-benefit>p {
+    font-size: 16px;
+}
+
+
+
+
+/* Process Section */
+.partner-process-main{
+    background-color: #ffebcd;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.partner-process-main>h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.step {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 25%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.step>h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.step>p {
+    font-size: 18px;
+}
+
+
+
+/* Application Form */
+.apply-form {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.apply-form h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.apply-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apply-form input, .apply-form textarea {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.apply-form button {
+    background-color: #ff7f50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.apply-form button:hover {
+    background-color: #ff4500;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .partner-card-main-div-benefits{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .partner-benefits-card{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .steps {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .step {
+        width: 30%;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 768px){
+    .partner-card-main-div-benefits{
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .partner-card-benefit{
+        width: 80%;
+    }
+    .steps {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .step {
+        width: 80%;
+    }
+
+}
+
+
+
+
+@media (max-width: 480px) {
+    .partner-hero-content>h1 {
+        font-size: 24px;
+    }
+    
+    .partner-hero-content>p {
+        font-size: 16px;
+    }
+    .partner-btn-primary {
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+    .partner-card-benefit>img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .partner-card-benefit>h3 {
+        font-size: 18px;
+    }
+
+    .partner-card-benefit>p {
+        font-size: 14px;
+    }
+    .step>h3 {
+        font-size: 20px;
+    }
+
+    .step>p {
+        font-size: 16px;
+    }
+
+}
